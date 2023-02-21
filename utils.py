@@ -347,7 +347,7 @@ def create_wallet_address(network=NETWORK):
 
 
 def get_stake_address(_address):
-    # Note: a brand new payment address without any utxo won't have a stake_address
+    # Note: a brand-new payment address without any utxo won't have a stake_address
     # --------------------------------------------------------------------------------
     # Tools: blockfrost.io
     # Description: Find a stake address associated with _address

@@ -27,9 +27,8 @@ elif NETWORK == 'testnet':
 BLOCKFROST_API_KEY = tryGetEnv("BLOCKFROST_API_KEY", api_blockfrost)
 
 # Set CARDANO_NODE_SOCKET_PATH
-# SOCKET_PATH = tryGetEnv("CARDANO_NODE_SOCKET_PATH", f"/Users/duy/cardano-src/{NETWORK}/node.socket")
-SOCKET_PATH = f"/Users/duy/cardano-src/{NETWORK}/node.socket"
-# SOCKET_PATH = tryGetEnv("SOCKET_PATH", '/ipc/node.socket')
+SOCKET_PATH = "<NODE SOCKET PATH>"
+
 my_env = os.environ.copy()
 my_env["CARDANO_NODE_SOCKET_PATH"] = SOCKET_PATH
 my_env["NETWORK"] = NETWORK
