@@ -1,0 +1,5 @@
+quart==0.16.2
+flask
+flask-restful
+requests
+pyyaml
